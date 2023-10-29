@@ -1,0 +1,8 @@
+type: 'library'
+language: 'typescript'
+
+tasks:
+  emit-types:
+    command: 'vue-tsc --emitDeclarationOnly'
+    inputs:
+      - 'src/**/*'

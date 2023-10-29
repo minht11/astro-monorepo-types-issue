@@ -1,0 +1,7 @@
+type: 'application'
+language: 'typescript'
+
+tasks:
+  dev:
+    command: 'astro dev'
+    local: true

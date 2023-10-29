@@ -1,0 +1,16 @@
+---
+import { Button, testFn } from '@example/design-system'
+import { type ButtonAsType } from './index.ts'
+
+// @ts-expect-error - should error, passed wrong param
+testFn(3)
+
+// This should error, but doesn't, no type information available
+// but export itself "ButtonAsType" is recognized as existing
+export const a: ButtonAsType = 'a2'
+---
+
+<div>Hello World!</div>
+
+<!-- as prop should error, but doesn't -->
+<Button as="button2">MyButton</Button>

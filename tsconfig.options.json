@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": [
+      "esnext"
+    ],
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": false,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "moduleDetection": "force",
+    "pretty": true,
+    "removeComments": false,
+    "sourceMap": false,
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "allowImportingTsExtensions": true
+  }
+}

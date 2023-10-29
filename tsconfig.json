@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.options.json",
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "apps/site"
+    },
+    {
+      "path": "packages/design-system"
+    }
+  ]
+}
